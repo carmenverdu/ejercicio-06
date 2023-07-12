@@ -1,0 +1,18 @@
+.mi-boton {
+    position: relative;
+    display: flex;
+    background-color: gainsboro;
+    color: black;
+}
+.mi-boton::after {
+    content: "Pasa por encima";
+}
+.mi-boton:active::after {
+    content: "¡Hecho!";
+    color: black;
+}
+.mi-boton:hover {
+    color: white;
+    background-color: green;
+}
+
